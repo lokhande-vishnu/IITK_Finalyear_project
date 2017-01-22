@@ -1,0 +1,25 @@
+ii) The introduction should motivate the problem, talk about previous work and propose solution. I don't have any comments on the aforementioned structure,
+but the use of I.A seems out of context in the introduction. Especially since most of the variables are given without proper quantification. Please remove Figure 2.
+In page 3 in the first paragraph, the reviewer does not agree that the derivation of HJB is simple and straightforward. HJB is a PDE without a closed-form solution and also
+suffers from the curst of dimensionality.
+//Nothing technical
+
+
+The authors should also check some approximate dynamic programming work on HJB,
+i.e.
+Vamvoudakis, Kyriakos G., and Frank L. Lewis. "Online actor–critic algorithm to solve the continuous-time infinite horizon optimal control problem." Automatica 46.5 (2010): 878-888.
+Beard, Randal W. "Successive Galerkin approximation algorithms for nonlinear optimal and robust control." International Journal of Control 71.5 (1998): 717-743.
+Sassano, Mario, and Alessandro Astolfi. "Dynamic approximate solutions of the HJ inequality and of the HJB equation for input-affine nonlinear systems." Automatic Control, IEEE Transactions on 57.10 (2012): 2490-2503.
+Seiffertt, John, Suman Sanyal, and Donald C. Wunsch. "Hamilton–Jacobi–Bellman equations and approximate dynamic programming on time scales." Systems, Man, and Cybernetics, Part B: Cybernetics, IEEE Transactions on 38.4 (2008): 918-923.
+// please check these things
+// One has to be infinite convergence while the other has to be finite convergence.
+
+iii) Now after a good introduction the reviewer expects to see a section on problem formulation to make clear the problem considered by the authors. All the equations are provided without proper quantification and definition. In
+subsection II.A there is a big mistake. Since the authors are considering (13) which is a finite-horizon problem, (15) cannot be written like this but it has to be written as,
+$-\frac{\partial V(e(t))}{\partial t}=\min_u (L+\frac{\partial V}{\partial e}\dot{e})$. Also the matrix $R$ needs to be positive definite. Meaning that everything has to be changed from (15) and onwards.
+Now let us say that (13) was infinite horizon then the authors need to formulate (16)-(27) in lemmas and/or theorems. The connection between the previous equations and (28) and (29) is not clear.
+Do the authors need to start with an admissible control?
+iv) Similarly the authors need to provide math guarantees and technical results for all their equations. The experiments seem nice but I think they are not enough to value a publication in a prestigious journal such as
+IEEE Transactions on Cybernetics.
+//If it is a finite horizon problem, then evthg has to be changed
+// if it is an infinite horizon problem then formulate(write it in a systematic way) them with lemmas and/or theorems.

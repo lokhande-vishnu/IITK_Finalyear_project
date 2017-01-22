@@ -1,0 +1,22 @@
+Open and run main.m
+
+DATE: 15 December 2014
+
+AIM: 
+  Trains FFNN for modulo-2 function using different algrithms and 
+  compares their performance
+
+INPUT: 
+  Set the no. of hidden layers in FFNN
+  Set the Algorithm parameters
+
+OUTPUT:
+  The error convergence can be plotted using plot(err_<algo>)
+  Trained NNs are saved in NN_<algo>
+  Output of NNs for all patterns can be tested using test(NN_<algo>,data)
+
+PUBLICATION:
+  Laxmidhar Behera, Vipul Arora and Ajay Pratap Yadav,
+  "Optimal Convergence Rate in Feed Forward Neural Networks using HJB
+  Equation", IEEE Transactions on Neural Networks and Learning Systems
+  (submitted)

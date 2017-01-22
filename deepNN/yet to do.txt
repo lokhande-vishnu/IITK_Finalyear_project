@@ -1,0 +1,25 @@
+for input parametre games
+&-const
+
+for return values games
+vodi-return
+redeclaration
+
+
+
+delta is a vecotor
+
+instead of matrix of matrices... could reduce it to matrix of vectors
+
+
+1st multiply== 3rd multiply
+vec*vec multiplication resulting in a matrix
+
+2nd multiply
+mat*vec mulitplic * vec element wise
+
+1.clubbing to be done
+2. all the elements of a matric=x to be considered
+
+
+very raw techniques can be found with muliple fors but searching for optimum technique

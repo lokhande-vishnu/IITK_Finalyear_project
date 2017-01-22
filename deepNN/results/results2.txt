@@ -1,0 +1,22 @@
+int Nhid[] = {50,10,10};
+training error not using the same NN
+
+Training using Back Propagation
+Duration 4715seconds
+Training: RMS error 5345.14
+Training: Percent Correct error 96.25%
+No of epochs before convergence 15
+
+Training using HJB
+Duration 26544seconds
+Training: RMS error 2753.41
+Training: Percent Correct error 98.8383%
+No of epochs before convergence 15
+
+Testing using BP
+Testing: RMS error 1250.99
+Testing: Percent Correct error 93.32%
+
+Testing using HJB
+Testing: RMS error 879.545
+Testing: Percent Correct error 95.27%

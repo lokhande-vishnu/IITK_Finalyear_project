@@ -1,0 +1,36 @@
+dnn_init- does some sort of initialisaition
+v== neurons output function.
+delta== error funciton
+
+main function call train_online
+dnn_findJ calcs the jacobian matrix as well as forward propogation
+D is same as E;; V is same as U
+
+train_online
+(p1_upd,p2_upd,p3_upd,p4_upd,p5_upd)(1epoch)+(p1_upd,p2_upd,p3_upd,p4_upd,p5_upd)(1epoch)+(p1_upd,p2_upd,p3_upd,p4_upd,p5_upd)... uptill error moves below 0.2
+1. feed the network with the pattern and find the e. FIND THE CURRENT STATE
+2. From this position do sthg to find what. FIND THE UPDATE
+3. FIND THE NEW STATE AND STORE THE ERROR
+
+train_offline
+(p1,p2,p3,p4,p5)_upd(1epoch)+(p1,p2,p3,p4,p5)_upd(2epoch)+(p1,p2,p3,p4,p5)_upd+(p1,p2,p3,p4,p5)_upd
+J matrix contains the J of all the patterns. eig of JJ' is calculated
+epoch is where the update ismade.
+
+epoch is always at the end of presentation of all patterns into the netowrk.
+
+Checking of error for termination condition always happens for the aggregate of patterns
+
+Ntrial means number of trials each with different initialisation of weights
+
+Convergence rule is .... if atleast one of the individual errors NoNp is less than errmax then stop
+Convergence is measure by total error is less than errmax when.
+
+
+
+Two things to be done.
+1. Noting the parametres required for running the code
+measure of convergence-> params
+ctr= for each trial at what # of epochs will it converge.
+convergence= when atleast one of NoNp is less than maxERR
+2. creating a test data and using it to test the code.

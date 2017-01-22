@@ -1,0 +1,23 @@
+{100,100,100}
+time-32 hours
+training error not using the same NN
+
+Training using Back Propagation
+Duration 24435seconds
+Training: RMS error 1159.35
+Training: Percent accuracy 99.095%
+No of epochs before convergence 15
+
+Training using HJB
+Duration 91170seconds
+Training: RMS error 1981.83
+Training: Percent accuracy 99.4333%
+No of epochs before convergence 15
+
+Testing using BP
+Testing: RMS error 589.394
+Testing: Percent Correct error 96.62%
+
+Testing using HJB
+Testing: RMS error 709.257
+Testing: Percent Correct error 96.51%

@@ -1,0 +1,22 @@
+{4,5,1};
+training error not using the same NN
+
+Training using Back Propagation
+Duration 450seconds
+Training: RMS error 56890.6
+Training: Percent Correct error 11.4983%
+No of epochs before convergence 15
+
+Training using HJB
+Duration 1058seconds
+Training: RMS error 56890.9
+Training: Percent Correct error 11.5067%
+No of epochs before convergence 15
+
+Testing using BP
+Testing: RMS error 9485.42
+Testing: Percent Correct error 10.28%
+
+Testing using HJB
+Testing: RMS error 9485.48
+Testing: Percent Correct error 10.28%

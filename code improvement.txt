@@ -1,0 +1,28 @@
+784-500-500-2000-10 
+
+//either  Codes taking infinite time to run or not running at all
+1. Mark the times and run a reduced version of the code
+code breakin
+2. observe the toolbox and modify the mathematics
+convert matrices to for loops and for loops to matrices
+
+the toolbox is running at thunderous speed as compared to my codes
++ it is performing in batch 
+
+comparison
+here
+one epoch is taking ~ 10 hours
+
+there
+one epoch is taking ~ 1 minute
+
+BETTER MY CODE
+
+problems in my code
+.v extension is added just to prevent predeclaration
+It is array of data structures. Basically an arrray wherin each cell is a data structure
+i.e. each cell has one or more fields.
+1. jacobina is taking unnecessary extra time
+claim is that those 10 are independent thus remove those ten
+2. All weights are put in the form of a matrix and hence lot of space
+Convert all the arrays into data structures or cells 	

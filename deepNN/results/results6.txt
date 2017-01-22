@@ -1,0 +1,22 @@
+SOM done for training and testing
+Nhid[] = {15}
+
+Training using Back Propagation
+No of epochs before convergence 15
+Duration 242seconds
+Training: RMS error 57039.1
+Training: Percent accuracy 9.75167%
+
+Training using HJB
+No of epochs before convergence 15
+Duration 362seconds
+Training: RMS error 57474.2
+Training: Percent accuracy 14.7433%
+
+Testing using BP
+Testing: RMS error nan
+Testing: Percent Correct error 9.8%
+
+Testing using HJB
+Testing: RMS error nan
+Testing: Percent Correct error 9.8%

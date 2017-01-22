@@ -1,0 +1,19 @@
+Training using Back Propagation
+No of epochs before convergence 15
+Duration 480seconds
+Training: RMS error 30030
+Training: Percent accuracy 64.0983%
+
+Training using HJB
+No of epochs before convergence 15
+Duration 1118seconds
+Training: RMS error 17018.5
+Training: Percent accuracy 84.7683%
+
+Testing using BP
+Testing: RMS error 5021.79
+Testing: Percent Correct error 63.74%
+
+Testing using HJB
+Testing: RMS error 2911.96
+Testing: Percent Correct error 84.08%

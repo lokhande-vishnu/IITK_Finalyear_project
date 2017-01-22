@@ -1,0 +1,8 @@
+LIBRARY sigm_mex.mexw64
+EXPORTS
+mexFunction
+emlrtMexFcnProperties
+sigm
+sigm_initialize
+sigm_terminate
+sigm_atexit

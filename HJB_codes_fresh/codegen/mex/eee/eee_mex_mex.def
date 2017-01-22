@@ -1,0 +1,8 @@
+LIBRARY eee_mex.mexw64
+EXPORTS
+mexFunction
+emlrtMexFcnProperties
+eee
+eee_initialize
+eee_terminate
+eee_atexit

@@ -1,0 +1,64 @@
+784-500-500-2000-10 
+Hinton's architecture (apply HJB, LF, LM) on MNIST database (Application based work)
+Not only is the insertion important but also the measurement mechanism.
+Keep note of the NN structure and the codes data structures.
+
+peculiar normalisation tecnique
+
+random state
+
+nnsetup
+activation functions will be the same
+nn.W data structure is importat.
+Adding one constant unit for each layer
+parametre modification
+use only one weights
+
+
+
+nntrain
+for each epoch=== time of completion, minibatch error, total batch error.
+{
+opts
+loss
+numbatches are used over here
+
+nnff// finds the current state
+nn.a and uses nn.W's. Same activation function is used in every layer.
+'each row is a separate training sample and coluums are the units'
+nn.e = error in the last layer.... each layer each unit.
+nn.L= total error for the batch.
+finds the layer activations==neuron outputs, errors and losses
+
+nnbp// finds the update
+
+mmapplygrads// incorporates the upgrades
+
+}
+
+nntest
+one more nnff on the test data and taking the maximum at the output.
+
+
+Substitution
+learning_rate or eta is a parametre
+Use th system of jacobians finally
+*Only thing whcih changes in multiple layers is the Jacobian clacuation. Supported by eq28,29
+* To suitably modify NN datastructure
+Only input layer will have a bias whereas others will not have any bias.
+
+
+
+
+// learning multi-layer backprop
+Kept the layer neurons in the form of functions
+why is constant not used?
+The subcodes are independent of number of layers, only the superficial codes have to be 
+changed to accomadate more layers.
+
+dnn_findJ is anologus to nnff plus finding the jacobian
+
+
+
+
+
